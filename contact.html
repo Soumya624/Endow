@@ -23,15 +23,15 @@ background-size: cover;padding:10% 20%;">
 
   <!-- Start your project here-->  
   <!-- Default form contact -->
-<form class="text-center border border-light p-5" action="#" method="#" style="background-color:white; border-radius:15px;width:98%;">
+<form class="text-center border border-light p-5" action="#" method="post" style="background-color:white; border-radius:15px;width:98%;">
 
     <p class="h4 mb-4" style="color:#1976d2;">Contact us</p>
 
     <!-- Name -->
-    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+    <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name" name="nm">
 
     <!-- Email -->
-    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail" name="em">
 
     <!-- Subject -->
 <!--
@@ -46,18 +46,17 @@ background-size: cover;padding:10% 20%;">
 
     <!-- Message -->
     <div class="form-group">
-        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message" name="msg"></textarea>
     </div>
-    <br>
+	<br>
     <!-- Copy -->
     <div class="custom-control custom-checkbox mb-4">
         <input type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
         <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
     </div>
-    <br>
+	<br>
     <!-- Send button -->
-    <center><input type="submit" value="Submit" style="border-radius: 12px;border: 1.5px solid #1976d2; color:#1976d2;"></center>
-
+    <center><input type="submit" value="Submit" style="border-radius: 12px;border: 1.5px solid #1976d2; color: #1976d2;"></center>
 </form>
 <!-- Default form contact -->
   <!-- End your project here-->
@@ -75,3 +74,4 @@ background-size: cover;padding:10% 20%;">
 
 </body>
 </html>
+
